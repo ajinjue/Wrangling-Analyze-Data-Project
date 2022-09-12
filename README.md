@@ -115,13 +115,13 @@ Some APIs are completely open, like MediaWiki (accessed via the wptools library)
 
 import tweepy
 
-consumer_key = 'YOUR CONSUMER KEY'
-consumer_secret = 'YOUR CONSUMER SECRET'
-access_token = 'YOUR ACCESS TOKEN'
-access_secret = 'YOUR ACCESS SECRET'
+consumer_key = 'YOUR CONSUMER KEY'  <br>
+consumer_secret = 'YOUR CONSUMER SECRET'  <br>
+access_token = 'YOUR ACCESS TOKEN'  <br>
+access_secret = 'YOUR ACCESS SECRET'  <br>
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_secret)
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret) <br>
+auth.set_access_token(access_token, access_secret) <br>
 
 api = tweepy.API(auth)
 Do Not Include Your API Keys, Secrets, and Tokens in Your Submission
