@@ -1,4 +1,5 @@
 Project 2: Wrangle and Analyze Data _ @WeRateDogs
+
 Gather data about @WeRateDogs Twitter user from a variety of sources and in a variety of formats, assess its quality and tidiness issues, then clean it. Showcase wrangling efforts through analyses and visualizations.
 
 Udacity Data Analyst Nano Degree _ by Akwayaga Collinus Ajinjue 12/09/2022
