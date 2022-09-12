@@ -50,14 +50,14 @@ One more cool thing: I ran every image in the WeRateDogs Twitter archive through
 
 So for the last row in that table:
 
-tweet_id is the last part of the tweet URL after "status/" → https://twitter.com/dog_rates/status/889531135344209921
-p1 is the algorithm's #1 prediction for the image in the tweet → golden retriever
-p1_conf is how confident the algorithm is in its #1 prediction → 95%
-p1_dog is whether or not the #1 prediction is a breed of dog → TRUE
-p2 is the algorithm's second most likely prediction → Labrador retriever
-p2_conf is how confident the algorithm is in its #2 prediction → 1%
-p2_dog is whether or not the #2 prediction is a breed of dog → TRUE etc.
-Key Points
+tweet_id is the last part of the tweet URL after "status/" → https://twitter.com/dog_rates/status/889531135344209921 <br>
+p1 is the algorithm's #1 prediction for the image in the tweet → golden retriever  <br>
+p1_conf is how confident the algorithm is in its #1 prediction → 95%  <br>
+p1_dog is whether or not the #1 prediction is a breed of dog → TRUE  <br>
+p2 is the algorithm's second most likely prediction → Labrador retriever  <br>
+p2_conf is how confident the algorithm is in its #2 prediction → 1%  <br>
+p2_dog is whether or not the #2 prediction is a breed of dog → TRUE etc.  <br>
+
 Key points to keep in mind when data wrangling for this project:
 
 You only want original ratings (no retweets) that have images. Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets. Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate your skills in data wrangling. Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset. Cleaning includes merging individual pieces of data according to the rules of tidy data. The fact that the rating numerators are greater than the denominators does not need to be cleaned. This unique rating system is a big part of the popularity of WeRateDogs. You do not need to gather the tweets beyond August 1st, 2017. You can, but note that you won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
