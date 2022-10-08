@@ -9,6 +9,7 @@ The dataset for this project was from the tweet archive of Twitter user @dog_rat
 - Cleaning data
 
 *Gathering Data* <br>
+
 Data was gathered or collected from 3 sources: <br>
 
 - I downloaded the WeRateDogs Twitter archive data (twitter_archive_enhanced.csv) directly. The dataset consisted of 2356 rows and 17 columns. 
@@ -16,14 +17,17 @@ Data was gathered or collected from 3 sources: <br>
 - I used the Tweepy library to query additional data via the Twitter API (tweet_json.txt). The tweet_id column from the first dataset was used to gather two additional properties of the WeRateDogs Twitter archive data, i.e retweet_count and favorite_count columns in a new dataframe. It consisted of 1774 rows and 3 columns. <br>
 
 *Assessing Data* <br>
+
 The 3 datasets were assessed or inspected visually and programmatically to check for data quality issues (such as missing values, duplicates, incorrect data, etc) and lack of tidiness or structural issues. Some of the issues detected and documented were as follows:
 
-columns with missing values
-wrong datatype
-outliers
-less descriptive column names
-values of columns as column headers, etc
-Cleaning Data
+- columns with missing values
+- wrong datatype
+- outliers
+- less descriptive column names
+- values of columns as column headers, etc
+
+*Cleaning Data*
+
 I began this section by first making a copy of the original datasets before cleaning the issues identified. Each of the issues identified were defined as a task which would be done. Code was written to perform the cleaning task. The code was tested to ensure the cleaning task was done as expected.
 
 After all the detected issues were defined, coded and tested, the 3 datasets were merged into a master dataset and stored as a CSV file ("twitter_archive_master.csv")
