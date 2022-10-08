@@ -4,10 +4,10 @@
 
 The dataset for this project was from the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though almost always greater than 10. 11/10, 12/10, 13/10, etc. WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for students to use in this project. My wrangling efforts in this project is categorized into sections:
 
-Gathering data
-Assessing data
-Cleaning data
-Gathering Data
+- Gathering data
+- Assessing data
+- Cleaning data
+- Gathering Data
 Data was gathered or collected from 3 sources:
 
 I downloaded the WeRateDogs Twitter archive data (twitter_archive_enhanced.csv) directly. The dataset consisted of 2356 rows and 17 columns.
