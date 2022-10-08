@@ -7,13 +7,15 @@ The dataset for this project was from the tweet archive of Twitter user @dog_rat
 - Gathering data
 - Assessing data
 - Cleaning data
-- Gathering Data
-Data was gathered or collected from 3 sources:
 
-I downloaded the WeRateDogs Twitter archive data (twitter_archive_enhanced.csv) directly. The dataset consisted of 2356 rows and 17 columns.
-I used the Requests library to download the tweet image prediction file (image_predictions.tsv) programmatically. The URL from which the file was downloaded is https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv. This dataset contained 2075 rows and 12 columns.
-I used the Tweepy library to query additional data via the Twitter API (tweet_json.txt). The tweet_id column from the first dataset was used to gather two additional properties of the WeRateDogs Twitter archive data, i.e retweet_count and favorite_count columns in a new dataframe. It consisted of 1774 rows and 3 columns.
-Assessing Data
+*Gathering Data* <br>
+Data was gathered or collected from 3 sources: <br>
+
+- I downloaded the WeRateDogs Twitter archive data (twitter_archive_enhanced.csv) directly. The dataset consisted of 2356 rows and 17 columns. 
+- I used the Requests library to download the tweet image prediction file (image_predictions.tsv) programmatically. The URL from which the file was downloaded is https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv. This dataset contained 2075 rows and 12 columns.
+- I used the Tweepy library to query additional data via the Twitter API (tweet_json.txt). The tweet_id column from the first dataset was used to gather two additional properties of the WeRateDogs Twitter archive data, i.e retweet_count and favorite_count columns in a new dataframe. It consisted of 1774 rows and 3 columns. <br>
+
+*Assessing Data* <br>
 The 3 datasets were assessed or inspected visually and programmatically to check for data quality issues (such as missing values, duplicates, incorrect data, etc) and lack of tidiness or structural issues. Some of the issues detected and documented were as follows:
 
 columns with missing values
